@@ -1,0 +1,64 @@
+.side_drawer {
+    height: 100vh;
+    width: 250px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 200;
+}
+
+.side_drawer_home {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.side_drawer_button {
+    height: 24px;
+    width: 28px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 25px;
+    outline: none;
+}
+
+.side_drawer_button :focus {
+    outline: none;
+    border: none;
+}
+
+.side_drawer_button_line {
+    width: 28px;
+    height: 1.5px;
+    background: gray;
+}
+
+.side_drawer_image {
+    width: 48%;
+    height: 29px;
+    margin: 10px 25px;
+}
+
+.side_drawer_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.side_drawer_items button {
+    margin: 5px 0;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-left: 22px;
+}

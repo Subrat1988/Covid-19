@@ -1,0 +1,48 @@
+.App {
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+
+.image {
+  width: 300px;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+}
+
+.body {
+  background-color: #F9F9F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body-dark-mode {
+  background-color: #0f0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.footer div {
+  align-self: flex-start;
+}
+
+@media only screen and (max-width: 770px) {
+  .body {
+    margin: 0 10%;
+  }
+}
+
